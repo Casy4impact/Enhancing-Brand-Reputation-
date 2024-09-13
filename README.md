@@ -10,7 +10,7 @@
 7. Data Source
 8. Tech Stack
 9. Project Scope
-10. Project Activities
+10. Project Implementation
 11. Data Validation
 12. Actions Taken
 13. Analysis, Insights, and Recommendations
@@ -85,7 +85,7 @@ This project focuses on improving brand reputation through advanced social media
 2.	Workflow Detailing (Phase 2): Utilize SQL to detail workflow from inception to completion.
 3.	Ensuring Clarity and Success (Phase 3): Provide a comprehensive overview for structured project execution.
    
-# Project Activities
+# Project Implementation
 At first, I created database with the name CREATE DATABASE AfriTechDB;
 Thereafter, I created a temporary table with the name stagingdata.
 -- Verify the Imported Data: SELECT * FROM stagingdata LIMIT 10;
