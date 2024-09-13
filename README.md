@@ -106,7 +106,8 @@ I created 3 tables from the temporary table and these tables include:
 5.	Flexibility and Scalability
 -- Insert data from Stagingdata into the Target Tables (Customerdata, Transactions and SocialMediaInteractions) 
 
-### DROP TABLE stagingdata: This table is no longer needed as I have created three important tables which was used foe the project.
+### DROP TABLE stagingdata: 
+This table is no longer needed as I have created three important tables which was used foe the project.
 
 ## Data Validation
 1.	Customerdata table has 200 rows, no missing values
