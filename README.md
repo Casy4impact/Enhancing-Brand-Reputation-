@@ -10,11 +10,13 @@
 7. Data Source
 8. Tech Stack
 9. Project Scope
-10. Project Implementation
-11. Data Validation
-12. Actions Taken
-13. Analysis, Insights, and Recommendations
-14. Conclusion
+10. EDA Questions
+11. Business questions
+12. Project Implementation
+13. Data Validation
+14. Actions Taken
+15. Analysis, Insights, and Recommendations
+16. Conclusion
     
 ## Project Overview
 This project focuses on improving brand reputation through advanced social media monitoring techniques. The goal is to address AfriTech Electronics Ltd.'s challenges with negative social media buzz, customer complaints, product recalls, and competitive pressure.
@@ -84,7 +86,32 @@ This project focuses on improving brand reputation through advanced social media
 1.	Project Planning and Design (Phase 1): Design and plan each step for effective execution.
 2.	Workflow Detailing (Phase 2): Utilize SQL to detail workflow from inception to completion.
 3.	Ensuring Clarity and Success (Phase 3): Provide a comprehensive overview for structured project execution.
-   
+
+## EDA Questions 
+1.	Are there any null values or missing columns in the customer and social media data?
+2.	What are the data types, and do they align with the expected format?
+3.	What is the relationship between age and income in customer demographics?
+4.	What are the top-selling products by quantity and revenue?
+5.	How do product recalls affect sales and average amounts?
+6.	Which platform (TikTok, Instagram, etc.) generates the most likes and engagement?
+7.	How many brand mentions are there across social media platforms?
+8.	What’s the sentiment score breakdown (positive, neutral, negative) across platforms?
+9.	How do engagement rates vary across platforms?
+10.	Who are the top influencers, and how is their score calculated?
+11.	What are the monthly trends in brand mentions and platform engagement?
+12.	How has crisis response time changed over time?
+
+## Business Questions
+1. Who are our top buying customers, and which regions do they represent?
+2. How do age and income affect customer purchasing behavior?
+3. How can we optimize revenue generation on different social media platforms?
+4. Which products generate the most revenue and which have been recalled?
+5. How does brand sentiment compare to our competitors across social media?
+6. What are the most effective marketing strategies based on platform-specific engagement?
+7. How can we improve our crisis management response time and resolution rate?
+8. What steps can we take to mitigate negative buzz surrounding certain products?
+
+
 # Project Implementation
 At first, I created database with the name CREATE DATABASE AfriTechDB;
 Thereafter, I created a temporary table with the name stagingdata.
